@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31B6A5016DA719F00287A59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31B6A4F16DA719F00287A59 /* UIKit.framework */; };
+		C31B6A5216DA719F00287A59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31B6A5116DA719F00287A59 /* Foundation.framework */; };
+		C31B6A5416DA719F00287A59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C31B6A5316DA719F00287A59 /* CoreGraphics.framework */; };
+		C31B6A5A16DA719F00287A59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C31B6A5816DA719F00287A59 /* InfoPlist.strings */; };
+		C31B6A5C16DA719F00287A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B6A5B16DA719F00287A59 /* main.m */; };
+		C31B6A6016DA719F00287A59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B6A5F16DA719F00287A59 /* AppDelegate.m */; };
+		C31B6A6216DA719F00287A59 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C31B6A6116DA719F00287A59 /* Default.png */; };
+		C31B6A6416DA719F00287A59 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31B6A6316DA719F00287A59 /* Default@2x.png */; };
+		C31B6A6616DA719F00287A59 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31B6A6516DA719F00287A59 /* Default-568h@2x.png */; };
+		C31B6A6E16DA721600287A59 /* YZMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B6A6D16DA721600287A59 /* YZMenu.m */; };
+		C31B6A7116DA765D00287A59 /* YZMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B6A7016DA765D00287A59 /* YZMenuItem.m */; };
+		C31B6A7416DA79C200287A59 /* YZMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C31B6A7316DA79C200287A59 /* YZMenuItemView.m */; };
+		C3C28B0C16DCC36400308265 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C28B0B16DCC36400308265 /* RootViewController.m */; };
+		C3E3A21B16E082E900088F23 /* icon_search.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E3A21716E082E900088F23 /* icon_search.png */; };
+		C3E3A21C16E082E900088F23 /* icon_starred.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E3A21816E082E900088F23 /* icon_starred.png */; };
+		C3E3A21D16E082E900088F23 /* icon_favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E3A21916E082E900088F23 /* icon_favorite.png */; };
+		C3E3A21E16E082E900088F23 /* icon_home.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E3A21A16E082E900088F23 /* icon_home.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C31B6A4C16DA719F00287A59 /* YZMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31B6A4F16DA719F00287A59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C31B6A5116DA719F00287A59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C31B6A5316DA719F00287A59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C31B6A5716DA719F00287A59 /* YZMenuDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YZMenuDemo-Info.plist"; sourceTree = "<group>"; };
+		C31B6A5916DA719F00287A59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C31B6A5B16DA719F00287A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C31B6A5D16DA719F00287A59 /* YZMenuDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZMenuDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C31B6A5E16DA719F00287A59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C31B6A5F16DA719F00287A59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C31B6A6116DA719F00287A59 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C31B6A6316DA719F00287A59 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C31B6A6516DA719F00287A59 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C31B6A6C16DA721600287A59 /* YZMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZMenu.h; path = ../YZMenu/YZMenu.h; sourceTree = "<group>"; };
+		C31B6A6D16DA721600287A59 /* YZMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZMenu.m; path = ../YZMenu/YZMenu.m; sourceTree = "<group>"; };
+		C31B6A6F16DA765D00287A59 /* YZMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZMenuItem.h; path = ../YZMenu/YZMenuItem.h; sourceTree = "<group>"; };
+		C31B6A7016DA765D00287A59 /* YZMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZMenuItem.m; path = ../YZMenu/YZMenuItem.m; sourceTree = "<group>"; };
+		C31B6A7216DA79C200287A59 /* YZMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YZMenuItemView.h; path = ../YZMenu/YZMenuItemView.h; sourceTree = "<group>"; };
+		C31B6A7316DA79C200287A59 /* YZMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YZMenuItemView.m; path = ../YZMenu/YZMenuItemView.m; sourceTree = "<group>"; };
+		C3C28B0A16DCC36400308265 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C3C28B0B16DCC36400308265 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C3E3A21716E082E900088F23 /* icon_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search.png; sourceTree = "<group>"; };
+		C3E3A21816E082E900088F23 /* icon_starred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_starred.png; sourceTree = "<group>"; };
+		C3E3A21916E082E900088F23 /* icon_favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_favorite.png; sourceTree = "<group>"; };
+		C3E3A21A16E082E900088F23 /* icon_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31B6A4916DA719F00287A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31B6A5016DA719F00287A59 /* UIKit.framework in Frameworks */,
+				C31B6A5216DA719F00287A59 /* Foundation.framework in Frameworks */,
+				C31B6A5416DA719F00287A59 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31B6A4316DA719F00287A59 = {
+			isa = PBXGroup;
+			children = (
+				C31B6A6C16DA721600287A59 /* YZMenu.h */,
+				C31B6A6D16DA721600287A59 /* YZMenu.m */,
+				C31B6A6F16DA765D00287A59 /* YZMenuItem.h */,
+				C31B6A7016DA765D00287A59 /* YZMenuItem.m */,
+				C31B6A7216DA79C200287A59 /* YZMenuItemView.h */,
+				C31B6A7316DA79C200287A59 /* YZMenuItemView.m */,
+				C31B6A5516DA719F00287A59 /* YZMenuDemo */,
+				C31B6A4E16DA719F00287A59 /* Frameworks */,
+				C31B6A4D16DA719F00287A59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31B6A4D16DA719F00287A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31B6A4C16DA719F00287A59 /* YZMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31B6A4E16DA719F00287A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C31B6A4F16DA719F00287A59 /* UIKit.framework */,
+				C31B6A5116DA719F00287A59 /* Foundation.framework */,
+				C31B6A5316DA719F00287A59 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C31B6A5516DA719F00287A59 /* YZMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C31B6A5E16DA719F00287A59 /* AppDelegate.h */,
+				C31B6A5F16DA719F00287A59 /* AppDelegate.m */,
+				C3C28B0A16DCC36400308265 /* RootViewController.h */,
+				C3C28B0B16DCC36400308265 /* RootViewController.m */,
+				C31B6A5616DA719F00287A59 /* Supporting Files */,
+			);
+			path = YZMenuDemo;
+			sourceTree = "<group>";
+		};
+		C31B6A5616DA719F00287A59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31B6A5716DA719F00287A59 /* YZMenuDemo-Info.plist */,
+				C31B6A5816DA719F00287A59 /* InfoPlist.strings */,
+				C31B6A5B16DA719F00287A59 /* main.m */,
+				C31B6A5D16DA719F00287A59 /* YZMenuDemo-Prefix.pch */,
+				C31B6A6116DA719F00287A59 /* Default.png */,
+				C31B6A6316DA719F00287A59 /* Default@2x.png */,
+				C31B6A6516DA719F00287A59 /* Default-568h@2x.png */,
+				C3E3A21716E082E900088F23 /* icon_search.png */,
+				C3E3A21816E082E900088F23 /* icon_starred.png */,
+				C3E3A21916E082E900088F23 /* icon_favorite.png */,
+				C3E3A21A16E082E900088F23 /* icon_home.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31B6A4B16DA719F00287A59 /* YZMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31B6A6916DA719F00287A59 /* Build configuration list for PBXNativeTarget "YZMenuDemo" */;
+			buildPhases = (
+				C31B6A4816DA719F00287A59 /* Sources */,
+				C31B6A4916DA719F00287A59 /* Frameworks */,
+				C31B6A4A16DA719F00287A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZMenuDemo;
+			productName = YZMenuDemo;
+			productReference = C31B6A4C16DA719F00287A59 /* YZMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31B6A4416DA719F00287A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = github.com/yzlin;
+			};
+			buildConfigurationList = C31B6A4716DA719F00287A59 /* Build configuration list for PBXProject "YZMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C31B6A4316DA719F00287A59;
+			productRefGroup = C31B6A4D16DA719F00287A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31B6A4B16DA719F00287A59 /* YZMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C31B6A4A16DA719F00287A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31B6A5A16DA719F00287A59 /* InfoPlist.strings in Resources */,
+				C31B6A6216DA719F00287A59 /* Default.png in Resources */,
+				C31B6A6416DA719F00287A59 /* Default@2x.png in Resources */,
+				C31B6A6616DA719F00287A59 /* Default-568h@2x.png in Resources */,
+				C3E3A21B16E082E900088F23 /* icon_search.png in Resources */,
+				C3E3A21C16E082E900088F23 /* icon_starred.png in Resources */,
+				C3E3A21D16E082E900088F23 /* icon_favorite.png in Resources */,
+				C3E3A21E16E082E900088F23 /* icon_home.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31B6A4816DA719F00287A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31B6A5C16DA719F00287A59 /* main.m in Sources */,
+				C31B6A6016DA719F00287A59 /* AppDelegate.m in Sources */,
+				C31B6A6E16DA721600287A59 /* YZMenu.m in Sources */,
+				C31B6A7116DA765D00287A59 /* YZMenuItem.m in Sources */,
+				C31B6A7416DA79C200287A59 /* YZMenuItemView.m in Sources */,
+				C3C28B0C16DCC36400308265 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C31B6A5816DA719F00287A59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31B6A5916DA719F00287A59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C31B6A6716DA719F00287A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C31B6A6816DA719F00287A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C31B6A6A16DA719F00287A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZMenuDemo/YZMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "YZMenuDemo/YZMenuDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C31B6A6B16DA719F00287A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YZMenuDemo/YZMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "YZMenuDemo/YZMenuDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31B6A4716DA719F00287A59 /* Build configuration list for PBXProject "YZMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31B6A6716DA719F00287A59 /* Debug */,
+				C31B6A6816DA719F00287A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31B6A6916DA719F00287A59 /* Build configuration list for PBXNativeTarget "YZMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31B6A6A16DA719F00287A59 /* Debug */,
+				C31B6A6B16DA719F00287A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C31B6A4416DA719F00287A59 /* Project object */;
+}
