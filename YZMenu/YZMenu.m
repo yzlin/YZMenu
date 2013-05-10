@@ -78,6 +78,7 @@
     self.navController = navigationController;
 
     [_itemViews removeAllObjects];
+    [_menuWrapperView removeFromSuperview];
     [_menuWrapperView release];
     _menuWrapperView = [UIView new];
 
