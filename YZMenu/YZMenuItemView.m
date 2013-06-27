@@ -23,10 +23,9 @@
     titleLabel.backgroundColor = [UIColor clearColor];
     titleLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     self.titleLabel = titleLabel;
-    [titleLabel release];
     [self addSubview:self.titleLabel];
 
-    self.imageView = [[[UIImageView alloc] initWithFrame:CGRectNull] autorelease];
+    self.imageView = [[UIImageView alloc] initWithFrame:CGRectNull];
     [self addSubview:self.imageView];
 
     self.menu = menu;
@@ -34,14 +33,6 @@
     return self;
 }
 
-- (void)dealloc
-{
-    [_titleLabel release];
-    [_imageView release];
-    [_item release];
-
-    [super dealloc];
-}
 
 - (void)layoutSubviews
 {

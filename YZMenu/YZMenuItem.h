@@ -11,8 +11,8 @@
 @interface YZMenuItem : NSObject
 
 @property (copy, readwrite, nonatomic) NSString *title;
-@property (retain, readwrite, nonatomic) UIImage *image;
-@property (retain, readwrite, nonatomic) UIImage *highlightedImage;
+@property (strong, readwrite, nonatomic) UIImage *image;
+@property (strong, readwrite, nonatomic) UIImage *highlightedImage;
 @property (copy, readwrite, nonatomic) void (^action)(YZMenuItem *item);
 @property (assign, readwrite, nonatomic) NSInteger tag;
 @property (assign, readonly, nonatomic) BOOL hasTagSet;

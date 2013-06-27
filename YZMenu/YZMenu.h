@@ -10,13 +10,13 @@
 
 @interface YZMenu : NSObject
 
-@property (retain, readwrite, nonatomic) NSArray *items;
+@property (strong, readwrite, nonatomic) NSArray *items;
 @property (assign, readonly, nonatomic) BOOL isOpen;
 
 @property (assign, readwrite, nonatomic) CGFloat itemHeight;
-@property (retain, readwrite, nonatomic) UIFont *font;
-@property (retain, readwrite, nonatomic) UIColor *textColor;
-@property (retain, readwrite, nonatomic) UIColor *highlighedTextColor;
+@property (strong, readwrite, nonatomic) UIFont *font;
+@property (strong, readwrite, nonatomic) UIColor *textColor;
+@property (strong, readwrite, nonatomic) UIColor *highlighedTextColor;
 
 - (id)initWithItems:(NSArray *)items;
 - (void)showFromNavigationController:(UINavigationController *)navigationController;

@@ -19,7 +19,7 @@
     UIView *_menuWrapperView;
 }
 
-@property (unsafe_unretained, readwrite, nonatomic) UINavigationController *navController;
+@property (weak, readwrite, nonatomic) UINavigationController *navController;
 
 @end
 
@@ -53,15 +53,6 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 
     _navController = nil;
-
-    [_itemViews release];
-    [_menuWrapperView release];
-    [_items release];
-    [_font release];
-    [_textColor release];
-    [_highlighedTextColor release];
-
-    [super dealloc];
 }
 
 - (void)didChangeOrientation:(NSNotification *)notification
@@ -79,7 +70,6 @@
 
     [_itemViews removeAllObjects];
     [_menuWrapperView removeFromSuperview];
-    [_menuWrapperView release];
     _menuWrapperView = [UIView new];
 
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -94,7 +84,6 @@
         itemView.item = item;
         [_itemViews addObject:itemView];
         [_menuWrapperView addSubview:itemView];
-        [itemView release];
     }
 
     _menuWrapperView.frame = CGRectMake(0,

@@ -283,6 +283,7 @@
 		C31B6A6A16DA719F00287A59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YZMenuDemo/YZMenuDemo-Prefix.pch";
 				INFOPLIST_FILE = "YZMenuDemo/YZMenuDemo-Info.plist";
@@ -294,6 +295,7 @@
 		C31B6A6B16DA719F00287A59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YZMenuDemo/YZMenuDemo-Prefix.pch";
 				INFOPLIST_FILE = "YZMenuDemo/YZMenuDemo-Info.plist";

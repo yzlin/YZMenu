@@ -12,6 +12,6 @@
 
 @interface RootViewController : UIViewController
 
-@property (retain, nonatomic) YZMenu *menu;
+@property (strong, nonatomic) YZMenu *menu;
 
 @end

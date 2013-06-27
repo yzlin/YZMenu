@@ -13,10 +13,10 @@
 
 @interface YZMenuItemView : UIView
 
-@property (unsafe_unretained, nonatomic) YZMenu *menu;
-@property (retain, nonatomic) UILabel *titleLabel;
-@property (retain, nonatomic) UIImageView *imageView;
-@property (retain, nonatomic) YZMenuItem *item;
+@property (weak, nonatomic) YZMenu *menu;
+@property (strong, nonatomic) UILabel *titleLabel;
+@property (strong, nonatomic) UIImageView *imageView;
+@property (strong, nonatomic) YZMenuItem *item;
 
 - (id)initWithFrame:(CGRect)frame menu:(YZMenu *)menu;
 

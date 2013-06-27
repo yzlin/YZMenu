@@ -13,12 +13,6 @@
 
 @implementation RootViewController
 
-- (void)dealloc
-{
-    [_menu release];
-
-    [super dealloc];
-}
 
 - (void)viewDidLoad
 {
@@ -51,13 +45,12 @@
                                                          }];
 
     _menu = [[YZMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem, profileItem]];
-    [homeItem release];
-    [exploreItem release];
-    [activityItem release];
-    [profileItem release];
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0 green:179 / 255.0 blue:134 / 255.0 alpha:1];
-	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStyleBordered target:self action:@selector(showMenu)] autorelease];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Menu"
+                                                                             style:UIBarButtonItemStyleBordered
+                                                                            target:self
+                                                                            action:@selector(showMenu)];
 }
 
 - (void)showMenu
